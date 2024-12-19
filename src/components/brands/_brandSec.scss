@@ -1,0 +1,26 @@
+.brand-main-count{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.brand-sec-info{
+    p{
+      font-size: 1.125rem;  
+      font-weight: 600;
+      color: #172342;
+    }
+}
+.brand-logo-count{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #A2A7B3;
+    img{
+        width: 17%;        
+    }
+}

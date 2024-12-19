@@ -1,0 +1,33 @@
+.manage-main-count{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.25rem;
+}
+.tm-left{
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.25rem;
+}
+.tm-head{
+    h2{
+        font-size: 3rem;
+    }
+}
+.tm-right{
+    width: 40%;
+}
+.tm-img{
+    width: 99%;
+    img{
+        width: 100%;
+    }
+}
+.tm-para p{
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,33 @@
+.features-main-count {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.section-features {
+  padding: 3.75rem 1.875rem;
+}
+.feat-top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h2{
+    font-size: 3.25rem;
+    margin: 0;
+  }
+}
+.feat-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.ft-info-p{
+    width: 55%;
+    text-align: center;
+}

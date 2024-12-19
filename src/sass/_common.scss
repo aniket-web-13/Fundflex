@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: "Manrope", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 66%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.section-padding {
+  padding: 3.75rem 1.875rem;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 5rem;
+  font-weight: 600;
+  color: #172342;
+  line-height: 115%;
+}
+p {
+  font-size: 1.125rem;
+  color: #5e6575;
+  line-height: 160%;
+  font-weight: 600;
+}
