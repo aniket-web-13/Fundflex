@@ -1,26 +1,44 @@
-import NavLogo from '../../assets/svg/nav-logo.svg';
 
-
+import {NavLinkBtn , NavBtn} from "../cardComponents/shared/buttons.jsx"
+import { NavImg } from "../cardComponents/shared/imgSec.jsx";
 
 const Nav = () => {
+    const navLink =[
+        {
+            nav:"All Page",
+            link:"/home-page",
+        },
+        {
+            nav:"Pricing",
+            link:""
+        },
+        {
+            nav:"About",
+            link:""
+        },
+        {
+            nav:"Contact Us",
+            link:""
+        },
+    ]
+    
 return(
    <nav>
         <div className="nav-padding">
             <div className="container">
                 <div className="nav-main-count">
                     <div className="nav-left">
-                        <img src={NavLogo} alt="" />
+                        <NavImg />
                     </div>
                     <div className="nav-mid">
-                        <ul>
-                            <li><div className="navlink"><a href="#home">All Page</a></div></li>
-                            <li><div className="navlink"><a href="#pricing">Pricing</a></div></li>
-                            <li><div className="navlink"><a href="#about">About</a></div></li>
-                            <li><div className="navlink"><a href="#contact">Contact Us</a></div></li>
-                        </ul>
+                        {navLink.map((value , i) => {
+                            return(
+                                <NavLinkBtn data={value.nav} link={value.link} index={i}/>
+                            )
+                        })}
                     </div>
                     <div className="nav-right">
-                        <button className="nav-btn">Get Started</button>
+                        <NavBtn />
                     </div>
                  </div>
              </div>      

@@ -1,5 +1,5 @@
-import { TestCard } from "../cardComponents/shared/testimonialCard"
-import { TestHead } from "../cardComponents/shared/testimonialCard"
+import { TestCard } from "../cardComponents/shared/testimonialCard.jsx"
+import { Centertitle } from "../cardComponents/shared/titles.jsx"
 
 export const Testimoni = () => {
     let Testimonial = [
@@ -46,7 +46,9 @@ export const Testimoni = () => {
                 <div className="container">
                     <div className="testimonial-main-count">
                         <div className="test-top">
-                            <TestHead />
+                            <Centertitle
+                               ceneterTitle={"See Why People Love Us"}
+                            />
                         </div>
                         <div className="test-btm-out">
                             <div className="test-btm">

@@ -1,4 +1,5 @@
-import { FeatureCard } from "../cardComponents/shared/card.js"
+import { FeatureCard } from "../cardComponents/shared/card.jsx"
+import { Centertitle } from "../cardComponents/shared/titles.jsx";
 
 const FeaturesSec = () => {
     const ftCard = [
@@ -25,12 +26,9 @@ const FeaturesSec = () => {
             <div className="section-padding">
                 <div className="container">
                     <div className="features-main-count">
-                        <div className="feat-top">
-                            <h2>Our Cutting-Edge Features</h2>
-                            <div className="ft-info-p">
-                                <p>Effortlessly Track, Manage, and Optimize Your Personal and Business Finances. Your Comprehensive Companion.</p>
-                             </div>                           
-                        </div>
+                       <Centertitle
+                          ceneterTitle={"Our Cutting-Edge Features"}
+                       />
                         <div className="feat-bottom">
                             {ftCard.map((value) =>{
                                 return(

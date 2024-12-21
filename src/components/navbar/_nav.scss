@@ -23,26 +23,23 @@ nav {
 }
 .nav-mid {
   width: 40%;
-  ul {
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
   }
 }
-.nav-mid ul li a {
-  text-decoration: none;
-  color: black;
-  font-weight: 600;
-}
+
 .nav-right {
   width: 13%;
 }
-.navlink {
-  padding: 0.5rem 0.875rem;
-}
+
 .nav-btn {
   width: 100%;
   padding: 1rem 1.875rem;

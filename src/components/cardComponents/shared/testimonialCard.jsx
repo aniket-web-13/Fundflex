@@ -1,19 +1,5 @@
 
 
-
-export const TestHead = () => {
-    return (
-        <div className="feat-top">
-            <h2>See Why People Love Us</h2>
-            <div className="ft-info-p">
-                <p>
-                    Effortlessly Track, Manage, and Optimize Your Personal and Business Finances. Your Comprehensive Companion.
-                </p>
-            </div>
-        </div>
-    )
-};
-
 export const TestCard = ({ para, src, name, comName, index }) => {
     return (
         <div className="test-card">

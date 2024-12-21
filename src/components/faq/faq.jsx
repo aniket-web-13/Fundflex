@@ -1,5 +1,6 @@
-import { FaqHead } from "../cardComponents/shared/questions"
-import { FaqBtm } from "../cardComponents/shared/questions"
+
+import { FaqBtm } from "../cardComponents/shared/questions.jsx"
+import { Centertitle } from "../cardComponents/shared/titles.jsx";
 
 export const Faq = () => {
     const quest = [
@@ -33,13 +34,17 @@ export const Faq = () => {
     return (
         <div className="section-padding">
             <div className="container">
-                <div className="faq-main-count">
-                    <div className="faq-top">
-                        <FaqHead />
-                    </div>
+                <div className="faq-main-count">                    
+                     <Centertitle 
+                       ceneterTitle={`Got Questions? We've Got Answers!`}
+                     />                    
                     <div className="faq-btm">
-                        {quest.map((data , num) => {
-                            <FaqBtm />
+                        {quest.map((value , num) => {
+                            return(
+                                <>
+                                 <FaqBtm que={value.que} ans={value.ans} id={value.id} index={num}/>
+                                </>                               
+                            )
                         })}                        
                     </div>
                 </div>
