@@ -6,11 +6,11 @@ const Nav = () => {
     const navLink =[
         {
             nav:"All Page",
-            link:"/home-page",
+            link:"/",
         },
         {
             nav:"Pricing",
-            link:""
+            link:"/pricing-page"
         },
         {
             nav:"About",
@@ -38,7 +38,7 @@ return(
                         })}
                     </div>
                     <div className="nav-right">
-                        <NavBtn />
+                        <NavBtn navTitle={"Get started"} arrow={""}/>
                     </div>
                  </div>
              </div>      

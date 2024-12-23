@@ -16,7 +16,7 @@ export const FaqBtm = ({que , ans, id, index}) => {
                 <div className="ans-count">
                     <div className="ans">
                         <p>{ans}</p>
-                    </div>                    
+                    </div>
                 </div>
             </div>                  
         </>

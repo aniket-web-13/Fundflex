@@ -1,0 +1,126 @@
+.footer-padding {
+  padding: 3.75rem 1.875rem 1.875rem;
+}
+.foot-main-count {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.foot-top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.foot-btm {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  p{
+    font-size: 1rem;
+  }
+}
+.foot-left {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+.foot-mid {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.foot-right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  h2 {
+    font-weight: 600;
+    line-height: 140%;
+  }
+  p {
+    font-size: 1rem;
+    margin: 1.5rem 0;
+  }
+}
+.fm-link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+.fm-links-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #5e6575;
+    font-weight: 500;
+    line-height: 160%;
+  }
+}
+.fmlinkTop {
+  p {
+    color: #172342;
+  }
+}
+.foot-form {
+  width: 100%;
+  form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ecfbff;
+    padding: 0.5rem 1.25rem 0.5rem 1.25rem;
+    border-radius: 1.5rem;
+    input {
+      width: 65%;
+      background-color: #ecfbff;
+      border: none;
+      font-size: 1.125rem;
+      outline: none;
+    }
+  }
+}
+.foot-btn {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  background-color: #172342;
+  color: white;
+  border: none;
+  border-radius: 5rem;
+  font-size: 1.125rem;
+  font-size: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sm-count{
+    width: 12%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,43 @@
+.exp-main-count {
+  width: 100%;
+  background-color: #ecfaff;
+  padding: 3.438rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.exp-left {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.exp-left h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+.exp-right{
+    width: 40%;
+    position: relative;
+}
+.exp-r-img{
+    width: 92%;
+    img{
+        width: 100%;
+    }
+}
+.exp-logo{
+    width: 40%;
+    position: absolute;
+    top: 20px;
+    left: -80px;
+    animation: rotate 15s linear infinite;
+    img{
+        width: 100%;
+    }
+}

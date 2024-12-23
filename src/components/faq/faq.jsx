@@ -32,23 +32,26 @@ export const Faq = () => {
         
     ];
     return (
-        <div className="section-padding">
-            <div className="container">
-                <div className="faq-main-count">                    
-                     <Centertitle 
-                       ceneterTitle={`Got Questions? We've Got Answers!`}
-                     />                    
-                    <div className="faq-btm">
-                        {quest.map((value , num) => {
-                            return(
-                                <>
-                                 <FaqBtm que={value.que} ans={value.ans} id={value.id} index={num}/>
-                                </>                               
-                            )
-                        })}                        
+        <section>
+            <div className="section-padding">
+                <div className="container">
+                    <div className="faq-main-count">                    
+                         <Centertitle 
+                           ceneterTitle={`Got Questions? We've Got Answers!`}
+                         />                    
+                        <div className="faq-btm">
+                            {quest.map((value , num) => {
+                                return(
+                                    <>
+                                        <FaqBtm que={value.que} ans={value.ans} id={value.id} index={num}/>
+                                    </>                               
+                                )
+                            })}                        
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
+             </div>
+        </section>
+       
     )
 }

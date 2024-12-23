@@ -73,3 +73,15 @@ export const GainsImg = () => {
         </>
     )
 }
+export const ExpImg = ({expImg1, expLogo}) => {
+    return(
+        <>
+            <div className="exp-r-img">
+                <img src={expImg1} alt="" />   
+             </div>
+            <div className="exp-logo">
+                <img src={expLogo} alt="" />   
+             </div>        
+        </>
+    )
+}
