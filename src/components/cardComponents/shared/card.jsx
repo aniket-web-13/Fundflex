@@ -1,4 +1,6 @@
-import { Component } from "react";
+
+import { NavBtn } from "./buttons";
+import { BiSolidCheckCircle } from "react-icons/bi";
 
 
 export function FeatureCard({src,head,para}){
@@ -24,24 +26,74 @@ export function FeatureCard({src,head,para}){
 }
 
 
-class PlanCard extends Component {
-    constructor(title,re) {
-      super();      
-      this.State = {
-        head:title, 
-        price:re,
-    };   
-    }      
-    render() {     
-      return (
-        <>
-          <h2>{this.state.title}</h2>
-          <p>{this.state.re}</p>
-        </>
-      );
-    }
-  }
-export {PlanCard} ;
+export function PlanCard() {
+  
+  const pricingInfo =[
+    {
+      head:"Starter Plan",      
+      price:"49",      
+      bg:"#E9E1FF"      
+    },
+    {
+      head:"Standard Plan",      
+      price:"99",
+      pop:"Popular",
+      bg:"#FFEDE8"      
+    },
+    {
+      head:"Premium Plan",      
+      price:"179",   
+      bg:"#ECFAFF"      
+    },
+  ]
+
+    return (
+      <>
+      <div className="plac-count">
+          {pricingInfo.map((value , i) => {
+            console.log(i);
+            return(
+              <>
+                <div className="price-card" key={i} style={{backgroundColor:value.bg}}>
+                    <div className="card-head">
+                        <div className="ch-top">
+                            <h2>{value.head}</h2>                        
+                        </div>                
+                        <p>For small companies.</p>
+                    </div>
+                    <div className="p-card-body">
+                        <div className="pcb-top">
+                            <div className="ch-top">
+                                <small>$</small>
+                                <h2>{value.price}</h2>  
+                                <h3>USD</h3>                      
+                            </div>                
+                            <p>For small companies.</p>
+                            <div className="hor-p-line"></div>
+                        </div>
+                        <div className="pcb-mid">
+                            <ul>
+                              <li><BiSolidCheckCircle style={{fontSize:"1.75rem"}}/><p>Access to basic features</p></li>
+                              <li><BiSolidCheckCircle style={{fontSize:"1.75rem"}}/><p>Attend events</p></li>
+                              <li><BiSolidCheckCircle style={{fontSize:"1.75rem"}}/><p>Basic reporting + analytics</p></li>
+                              <li><BiSolidCheckCircle style={{fontSize:"1.75rem"}}/><p>Automatic updates</p></li>
+                              <li><BiSolidCheckCircle style={{fontSize:"1.75rem"}}/><p>Up to 10 individual users</p></li>
+                            </ul>
+                        </div>
+                        <div className="pcb-btm">
+                            <NavBtn navTitle={"Buy Plan"}/>
+                        </div>                      
+                    </div>
+                </div>          
+              </>                   
+            )       
+          })}  
+      </div>        
+      </>
+    );
+
+}
+
 
 
 // export const PlanCard = () => {

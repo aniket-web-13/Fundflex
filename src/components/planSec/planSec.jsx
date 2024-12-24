@@ -1,6 +1,6 @@
 
-import { PlanCard } from "../cardComponents/shared/card";
-import { Centertitle } from "../cardComponents/shared/titles";
+import { PlanCard } from "../cardComponents/shared/card.jsx";
+import { Centertitle } from "../cardComponents/shared/titles.jsx";
 
 
 export function PlanSec() {
@@ -18,10 +18,14 @@ export function PlanSec() {
                                 </div>
                                 <div className="head-plan-md">
                                     <p>Monthly</p>
+                                    <div className="my-plan">
+                                        <div className="my-circle"></div>
+                                    </div>
                                     <p>Yearly</p>
                                 </div>
                                 <div className="head-btm-plan">
                                     <PlanCard />
+                                    <div className="pop position-pop"><p>Popular</p></div>
                                 </div>
                             </div>
                         </div>

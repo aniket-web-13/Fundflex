@@ -1,25 +1,144 @@
-.head-top{
-    width: 100%;
-    h2{
-        font-size: 4.5rem;
-    }
+.head-top {
+  width: 100%;
+  h2 {
+    font-size: 4.5rem;
+  }
 }
-.head-plan-count{
+.head-plan-count {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.head-btm-plan {
+  width: 100%;
+  position: relative;
+}
+.plac-count {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.head-plan-md {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.my-plan {
+  width: 50px;
+  height: 24px;
+  border: 1px solid black;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.my-circle {
+  background-color: #5a45fe;
+  border-radius: 100px;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+}
+.price-card {
+  width: 32%;
+  padding: 1.938rem 1rem 1.125rem;
+  border-radius: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-head {
+  width: 100%;
+  p {
+    font-size: 0.875rem;
+  }
+}
+.ch-top{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:flex-start;
+  gap: 0.5rem;
+  h2, h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 140%;
+  } 
+  small{
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+.pop {
+  width: fit-content;
+  background-color: #a67cff;
+  color: white;
+  padding: 0.3rem 1.125rem;
+  border-radius: 100px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  p {
+    font-size: 0.875rem;
+    color: white;
+  }
+}
+.position-pop {
+  position: absolute;
+  left: 660px;
+  top: 35px;
+}
+.p-card-body {
+  width: 100%;
+  background-color: white;
+  margin-top: 1.375rem;
+  padding: 1.5rem 1.5rem 1.25rem;
+  border-radius: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.pcb-top{
     width: 100%;
+}
+.pcb-mid{
+    width: 100%;
+}
+.pcb-mid ul{
+    list-style: none;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.125rem;
+    li{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 0.5rem;
+    }
 }
-.head-btm-plan{
+.pcb-btm{
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
 }
-.plan-card{
-    width: 32%;
-    border: 1px solid black;
+.hor-p-line{
+    width: 100%;    
+    height: 2px;
+    margin-top: 1.125rem;
+    background-color: rgba(23, 35, 66, 0.1019607843);
 }

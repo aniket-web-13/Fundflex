@@ -1,4 +1,4 @@
-import { IoMdArrowForward } from "react-icons/io";
+
 import manageImg from "../../assets/png/transaction-mangement.png"
 import { GainsTitle } from "../cardComponents/shared/titles";
 import { MainBtn } from "../cardComponents/shared/buttons";
