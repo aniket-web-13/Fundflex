@@ -31,18 +31,18 @@ export function PlanCard() {
   const pricingInfo =[
     {
       head:"Starter Plan",      
-      price:"49",      
+      price:49,      
       bg:"#E9E1FF"      
     },
     {
       head:"Standard Plan",      
-      price:"99",
+      price:99,
       pop:"Popular",
       bg:"#FFEDE8"      
     },
     {
       head:"Premium Plan",      
-      price:"179",   
+      price:179,   
       bg:"#ECFAFF"      
     },
   ]

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 import App from './App';
 import "./sass/style.scss"
+import "./sass/responsive.scss"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

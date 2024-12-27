@@ -13,6 +13,7 @@ export const TestCard = ({ para, src, name, comName, index }) => {
                     <p>{comName}</p>
                 </div>
             </div>
+            <div className="tcard-line"></div>
         </div>
     )
 };

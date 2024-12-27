@@ -23,8 +23,6 @@ export const FaqBtm = ({que , ans, id, index}) => {
     )
 }
 
-
-
 export const GainsLi = () => {
      const fgList = [
             {

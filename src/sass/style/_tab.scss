@@ -1,0 +1,168 @@
+@media (max-width: 768px) {
+  // main css Container //
+  .container {
+    width: 97%;
+  }
+  .header-padding {
+    padding: 2.813rem 1.25rem 1.5rem;
+  }
+  .section-padding {
+    padding: 2.5rem 1.25rem;
+  }
+  .footer-padding {
+    padding: 3.75rem 1.875rem 4.375rem;
+  }
+  // Nav //
+  .nav-mid,
+  .nav-right {
+    display: none;
+  }
+  .nav-main-count{
+    width: 100%;
+  }
+
+  // Header //
+  .head-main-count {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .head-left,
+  .head-right {
+    width: 100%;
+  }
+  .hl-info {
+    h1 {
+      font-size: 4rem;
+    }
+  }
+  .hr-img-small {
+    display: none;
+  }
+  // Brand //
+  .brand-logo-count {
+    width: 100%;
+  }
+  .brand-logo-count {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+    img {
+      width: 167px;
+    }
+  }
+  .brand-sec-info {
+    text-align: center;
+  }
+  // features //
+  .feat-top {
+    text-align: center;
+    h2 {
+      font-size: 2.25rem;
+    }
+  }
+  .ft-info-p {
+    width: 100%;
+  }
+  .feat-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+  .ft-card {
+    width: 100%;
+  }
+  // Gains //
+  .gains-main-count {
+    flex-direction: column;
+    width: 81%;
+  }
+  .gains-left,
+  .gains-right {
+    width: 100%;
+  }
+  .circleGr {
+    top: 0;
+    right: 0;
+  }
+  .gr-heading {
+    h2 {
+      font-size: 2.25rem;
+    }
+  }
+  // management //
+  .manage-main-count {
+    flex-direction: column;
+    width: 81%;
+  }
+  .tm-left,
+  .tm-right {
+    width: 100%;
+  }
+  // testimoni //
+  .test-btm {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0.5rem;
+  }
+  .test-card {
+    padding: 1.5rem 1.25rem;
+    gap: 1.875rem;
+  }
+  .vert-line,
+  .hor-line {
+    display: none;
+  }
+  // FAQ //
+  .faq-btm {
+    width: 100%;
+  }
+  .ques {
+    text-align: left;
+    p {
+      font-size: 1.125rem;
+    }
+  }
+  // Experince //
+  .exp-main-count {
+    flex-direction: column;
+    padding: 2.5rem 1.25rem;
+    gap: 2.5rem;
+  }
+  .exp-left,
+  .exp-right {
+    width: 100%;
+  }
+  .exp-logo {
+    width: 25%;
+    top: 0;
+    left: 0;
+  }
+  // footer //
+  .foot-top {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .foot-left {
+    width: 100%;
+  }
+  .foot-right{
+    width: 30%;
+  }
+  .foot-mid {
+    width: 30%;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .gr-heading {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+  .foot-btm {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .sm-count {
+    width: 40%;
+  }
+}
