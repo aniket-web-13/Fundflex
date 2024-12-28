@@ -61,7 +61,7 @@
     width: 100%;
   }
   .feat-bottom {
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     gap: 1.5rem;
   }
   .ft-card {
@@ -132,7 +132,6 @@
   }
   .exp-right {
     width: 100%;
-    
   }
   .exp-logo {
     width: 25%;
@@ -165,5 +164,21 @@
   }
   .sm-count {
     width: 40%;
+  }
+
+  // pricing plan component //
+  .position-pop {
+    left: 240px;
+    top: 650px;
+  }
+  .price-card {
+    width: 100%;
+  }
+  .plac-count {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .head-plan-md {
+    width: 55%
   }
 }

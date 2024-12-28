@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
   // main css Container //
   .container {
-    width: 97%;
+    width: 97% !important;
   }
   .header-padding {
     padding: 2.813rem 1.25rem 1.5rem;
@@ -145,7 +145,7 @@
     width: 100%;
   }
   .foot-right{
-    width: 30%;
+    width: 100%;
   }
   .foot-mid {
     width: 30%;

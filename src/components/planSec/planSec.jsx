@@ -1,9 +1,28 @@
 
+import { PlanCircleBtn } from "../cardComponents/shared/buttons.jsx";
 import { PlanCard } from "../cardComponents/shared/card.jsx";
 import { Centertitle } from "../cardComponents/shared/titles.jsx";
 
 
 export function PlanSec() {
+
+//     let myPlan = document.getElementById("myPlan");
+// let myPlanBTn = document.getElementById("myPlanBtn");
+
+// myPlan.addEventListener("click", () => {
+//     myPlanBTn.style.display = "none"
+// })
+
+let planBtn = () => {
+   let roundBtn = document.getElementById("plantBtn");
+   console.log(roundBtn);
+     
+}
+
+
+
+
+
     return(
         <>
             <header>
@@ -18,8 +37,8 @@ export function PlanSec() {
                                 </div>
                                 <div className="head-plan-md">
                                     <p>Monthly</p>
-                                    <div className="my-plan">
-                                        <div className="my-circle"></div>
+                                    <div className="my-plan" id="myPlan" onClick={planBtn}>
+                                        <PlanCircleBtn id={"plantBtn"}/>
                                     </div>
                                     <p>Yearly</p>
                                 </div>

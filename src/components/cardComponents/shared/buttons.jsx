@@ -148,3 +148,12 @@ export const SocialMedia = () => {
         </>
     )
 }
+
+
+export const PlanCircleBtn = (id) => {
+    return(
+        <>
+            <button className="my-circle" id={id}></button>
+        </>
+    )
+}

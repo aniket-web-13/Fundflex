@@ -34,6 +34,7 @@
   width: 50px;
   height: 24px;
   border: 1px solid black;
+  padding: 0 5px;
   border-radius: 18px;
   display: flex;
   flex-direction: row;
@@ -45,7 +46,8 @@
   border-radius: 100px;
   width: 16px;
   height: 16px;
-  margin-left: 5px;
+  // margin-left: 5px;
+  border: none;
 }
 .price-card {
   width: 32%;
