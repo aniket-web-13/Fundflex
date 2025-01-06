@@ -40,9 +40,19 @@ return(
                     <div className="nav-right">
                         <NavBtn navTitle={"Get started"} arrow={""}/>
                     </div>
-                 </div>
+                    <div className="ham-count">
+                        
+                    </div>
+                 </div>                               
              </div>      
-         </div>        
+        </div>
+        <div className="sub-link-count">
+            {navLink.map((value , i) => {
+                 return(
+                     <NavLinkBtn data={value.nav} link={value.link} index={i}/>
+                 )
+             })}
+        </div>      
    </nav>
 )
 };

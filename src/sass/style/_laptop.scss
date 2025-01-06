@@ -1,45 +1,51 @@
-@media (max-width: 1200px) { 
-    .container {
-        width: 970px;
-      }
-      .section-padding {
-        padding: 2.75rem 1.875rem;
+@media (max-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+  
+  .section-padding {
+    padding: 2.75rem 1.875rem;
+  }
+  // NavBar //
+
+  .nav-right {
+    width: 16%;
+  }
+
+  // Header //
+  .hl-info {
+    h1 {
+      font-size: 3rem;
     }
-      // NavBar //
-    
-      .nav-right {
-        width: 16%;
-    }
-    
-      // Header //
-      .hl-info {
-        h1 {
-          font-size: 3rem;
-        }
-      }
-      .hr-img-small {
-        display: none;
-      }
-      // testimoni //
-      .test-card{
-        padding: 1.5rem 1.375rem;
-      }
-      .line-1 {
-        position: absolute;
-        top: 0;
-        left: 300px;
-    }
-      .line-2 {
-        position: absolute;
-        top: 0;
-        right: 320px;
-      }
-      // footer //
-      .faq-btm {
-        width: 65%;
-      }
-      .ques {
-        text-align: left;
-      }
-    
- }
+  }
+  .hr-img-small {
+    display: none;
+  }
+  // testimoni //
+  .test-card {
+    padding: 1.5rem 1.375rem;
+  }
+  .line-1 {
+    position: absolute;
+    top: 0;
+    left: 360px;
+  }
+  .line-2 {
+    position: absolute;
+    top: 0;
+    right: 370px;
+  }
+  // footer //
+  .faq-btm {
+    width: 65%;
+  }
+  .ques {
+    text-align: left;
+  }
+  // subscription plan //
+  .position-pop {
+    position: absolute;
+    left: 651px;
+    top: 39px;
+  }
+}

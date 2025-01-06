@@ -168,17 +168,16 @@
 
   // pricing plan component //
   .position-pop {
-    left: 240px;
-    top: 650px;
+    left: 280px !important;
+    top: 630px !important;
   }
   .price-card {
-    width: 100%;
+    width: 100% !important;
   }
   .plac-count {
-    flex-direction: column;
-    gap: 2rem;
+   grid-template-columns: 1fr !important;
   }
   .head-plan-md {
-    width: 55%
+    width: 55% !important;
   }
 }

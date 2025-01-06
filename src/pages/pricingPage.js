@@ -7,11 +7,13 @@ import { PlanSec } from "../components/planSec/planSec.jsx";
 function PricingPage() {
   return (
     <>
-      <Navbar />
-      <PlanSec />
-      <Faq />
-      <Experience />
-      <Footer />
+      <main>
+        <Navbar />
+        <PlanSec />
+        <Faq />
+        <Experience />
+        <Footer />
+      </main>      
     </>
   );
 }

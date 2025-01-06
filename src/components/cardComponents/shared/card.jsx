@@ -73,11 +73,11 @@ export function PlanCard() {
                         </div>
                         <div className="pcb-mid">
                             <ul>
-                              <li><BiSolidCheckCircle style={{fontSize:"1.75rem"}}/><p>Access to basic features</p></li>
-                              <li><BiSolidCheckCircle style={{fontSize:"1.75rem"}}/><p>Attend events</p></li>
-                              <li><BiSolidCheckCircle style={{fontSize:"1.75rem"}}/><p>Basic reporting + analytics</p></li>
-                              <li><BiSolidCheckCircle style={{fontSize:"1.75rem"}}/><p>Automatic updates</p></li>
-                              <li><BiSolidCheckCircle style={{fontSize:"1.75rem"}}/><p>Up to 10 individual users</p></li>
+                              <li><BiSolidCheckCircle style={{fontSize:"24px"}}/><p>Access to basic features</p></li>
+                              <li><BiSolidCheckCircle style={{fontSize:"24px"}}/><p>Attend events</p></li>
+                              <li><BiSolidCheckCircle style={{fontSize:"24px"}}/><p>Basic reporting + analytics</p></li>
+                              <li><BiSolidCheckCircle style={{fontSize:"24px"}}/><p>Automatic updates</p></li>
+                              <li><BiSolidCheckCircle style={{fontSize:"24px"}}/><p>Up to 10 individual users</p></li>
                             </ul>
                         </div>
                         <div className="pcb-btm">

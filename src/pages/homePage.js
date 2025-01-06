@@ -12,6 +12,7 @@ import { Footer } from "../components/footer/footer.jsx"
 function Home() {
       return (
         <>
+        <main>
           <Navbar />
           <Header />
           <Brands />
@@ -22,6 +23,7 @@ function Home() {
           <Faq />
           <Experience />
           <Footer />
+        </main>         
         </>
       );
 }

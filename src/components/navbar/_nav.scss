@@ -1,11 +1,17 @@
-nav {
-  background-color: #f3f4f6;
-  // position: fixed;
-  // width: 100%;
-  // z-index: 99;
+nav {  
+  position: sticky;
+  width: 100%;
+  z-index: 99;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 .nav-padding {
   padding: 0.75rem 1.875rem;
+  background-color: #f3f4f6;
+  width: 100%;
 }
 .nav-main-count {
   width: 100%;
@@ -54,4 +60,24 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+}
+.sub-link-count{
+  width: 95%;
+  background-color: white;
+  padding: 1.25rem;
+  z-index: -1;
+  border-radius: 1rem;
+  border: 1px solid rgb(189, 189, 189);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  position: absolute;
+  top: 85px;
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
 }
