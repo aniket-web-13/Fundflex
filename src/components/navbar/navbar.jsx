@@ -21,6 +21,11 @@ const Nav = () => {
             link:""
         },
     ]
+ 
+    const hamBtn = () => {        
+        let subLink = document.getElementById("subLInk");
+        subLink.classList.toggle("hamShow")    
+    }
     
 return(
    <nav>
@@ -39,19 +44,24 @@ return(
                     </div>
                     <div className="nav-right">
                         <NavBtn navTitle={"Get started"} arrow={""}/>
-                    </div>
-                    <div className="ham-count">
-                        
-                    </div>
+                        <div className="ham-count" onClick={hamBtn}>
+                            <div className="ham-line-1"></div>
+                            <div className="ham-line-2"></div>
+                            <div className="ham-line-3"></div>
+                        </div>
+                    </div>                   
                  </div>                               
-             </div>      
+             </div>
         </div>
-        <div className="sub-link-count">
-            {navLink.map((value , i) => {
-                 return(
-                     <NavLinkBtn data={value.nav} link={value.link} index={i}/>
-                 )
-             })}
+        <div className="sub-link-count" id="subLInk">
+            <div className="sub-in-box">
+                {navLink.map((value , i) => {
+                     return(
+                         <NavLinkBtn data={value.nav} link={value.link} index={i}/>
+                     )
+                 })}
+            </div>
+           
         </div>      
    </nav>
 )

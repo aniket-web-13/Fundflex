@@ -16,12 +16,15 @@
   .nav-mid {
     display: none;
   }
-  .nav-main-count{
+  .nav-main-count {
     width: 100%;
   }
   .nav-right {
-    width: 22% !important;
-}
+    width: 32% !important;
+  }
+  .ham-count {
+    display: block;
+  }
 
   // Header //
   .head-main-count {
@@ -146,7 +149,7 @@
   .foot-left {
     width: 100%;
   }
-  .foot-right{
+  .foot-right {
     width: 100%;
   }
   .foot-mid {
@@ -168,17 +171,17 @@
     width: 40%;
   }
   // subsricption plan //
-  .plac-count{
+  .plac-count {
     display: grid !important;
     grid-template-columns: 1fr 1fr !important;
     gap: 1rem !important;
   }
-  .price-card{
+  .price-card {
     width: 100% !important;
   }
   .position-pop {
     position: absolute !important;
     left: 603px !important;
     top: 39px !important;
-}
+  }
 }
