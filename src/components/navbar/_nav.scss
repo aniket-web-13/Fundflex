@@ -1,4 +1,4 @@
-nav {  
+nav {
   position: sticky;
   width: 100%;
   z-index: 99;
@@ -8,11 +8,13 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+
 .nav-padding {
   padding: 0.75rem 1.875rem;
   background-color: #f3f4f6;
   width: 100%;
 }
+
 .nav-main-count {
   width: 100%;
   display: flex;
@@ -20,14 +22,17 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+
 .container {
   width: 66%;
   margin: 0 auto;
   // border: 1px solid black;
 }
+
 .nav-left {
   width: 18%;
 }
+
 .nav-mid {
   width: 40%;
   padding: 0;
@@ -36,6 +41,7 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
   a {
     text-decoration: none;
     color: black;
@@ -65,24 +71,26 @@ nav {
   align-items: center;
   justify-content: space-evenly;
 }
-.sub-link-count{
+
+.sub-link-count {
   width: 95%;
   background-color: white;
   padding: 1.25rem;
   z-index: -1;
   border-radius: 1rem;
-  border: 1px solid rgb(189, 189, 189);
+  border: 1px solid rgb(235 235 235);
   position: absolute;
   display: none;
   top: 85px;
-
 }
-.sub-in-box{
+
+.sub-in-box {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   gap: 1rem;
+
   a {
     text-decoration: none;
     color: black;
@@ -90,26 +98,31 @@ nav {
   }
 }
 
-.ham-count{
+.ham-count {
   width: 26px;
   height: fit-content;
   display: none;
 }
 
-.hamShow{
+.hamShow {
   display: block;
 }
 
-.ham-line-1{
+#hamLine1 {
   width: 100%;
   border: 1px solid black;
   margin: 0.325rem 0;
+
 }
-.ham-line-2{
+
+#hamLine2 {
   width: 100%;
   border: 1px solid black;
   margin: 0.325rem 0;
-}.ham-line-3{
+
+}
+
+#hamLine3 {
   width: 100%;
   border: 1px solid black;
   margin: 0.325rem 0;

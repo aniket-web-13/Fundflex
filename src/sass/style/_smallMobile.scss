@@ -13,9 +13,20 @@
     padding: 3rem 1.25rem 1.875rem !important;
   }
   // Nav //
-  .nav-mid,
-  .nav-right {
+  .nav-padding {
+    padding: 0.75rem 1.25rem !important;
+  }
+  .nav-mid {
     display: none;
+  }
+  .navbar-btn{
+    display: none;
+  }
+  .nav-right{
+    width: 6% !important;
+  }
+  .sub-link-count{
+    top: 75px !important;
   }
 
   // Header //
@@ -66,6 +77,7 @@
   }
   .ft-card {
     width: 100%;
+    padding: 1.875rem 1.25rem;
   }
   // Gains //
   .gains-main-count {
